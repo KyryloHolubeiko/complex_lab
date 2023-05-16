@@ -1,0 +1,147 @@
+/* styles.css */
+
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f9f9f9;
+  }
+  
+  h1, h2, h3 {
+    margin: 0;
+  }
+  
+  ul.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul.menu li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  ul.menu li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+  }
+  
+  ul.menu li a.active {
+    color: #ff0000;
+    font-weight: bold;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  /* Header */
+  header {
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  /* Description Section */
+  .description {
+    margin-bottom: 20px;
+  }
+  
+  /* Infographics Section */
+  .infographics {
+    text-align: center;
+  }
+  
+  .circle-chart {
+    width: 200px;
+    height: 200px;
+    background-color: #e1ecf4;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .chart {
+    position: relative;
+    text-align: center;
+  }
+  
+  .percent {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .caption {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  /* Chairperson Section */
+  .chairperson {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .person {
+    margin-top: 20px;
+  }
+  
+  .person img {
+    width: 150px;
+    border-radius: 50%;
+  }
+  
+  .person h3 {
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  .person p {
+    color: #666;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  .contact-form textarea {
+    height: 100px;
+  }
+  
+  .contact-form button {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  /* Color Palette */
+  :root {
+    --primary-color: #ff0000;
+    --secondary-color: #3498db;
+    --background-color: #f9f9f9;
+    --text-color: #333;
+    --accent-color: #777;
+  }
+  
